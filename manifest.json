@@ -1,0 +1,24 @@
+{
+    "manifest_version": 2,
+    "version": "0.0.1",
+    "name": "Amora Dog",
+    "description": "Extensão para pemitir alterar a qualidade do vídeo na DIO",
+    "author": "Flávio Portugal",
+    "browser_action": {
+   	 "default_title": "Amora Dog",
+   	 "default_popup": "index.html",
+   	 "default_icon": "icon.png"
+    },
+	"background":{
+	   "scripts":["background.js"],
+	   "persistent": false
+	},
+	"content_scripts": [{
+        "matches": ["http://*/*", "https://*/*"],
+        "js": ["content.js"]
+    }],
+	"permissions": [
+		"tabs"     
+	]
+
+}
