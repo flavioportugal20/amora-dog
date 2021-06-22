@@ -1,4 +1,4 @@
-
+//recebe mensagem de background.js
 chrome.extension.onMessage.addListener(function(message, sender, sendResponse) {
     switch(message.type) {
         case "revelar-video":

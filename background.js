@@ -1,6 +1,4 @@
-
-// listening for an event / one-time requests
-// coming from the popup
+//recebe mensagem de popup.js
 chrome.extension.onMessage.addListener(function(request, sender, sendResponse) {
     switch(request.type) {
         case "revelar-video":
@@ -11,7 +9,7 @@ chrome.extension.onMessage.addListener(function(request, sender, sendResponse) {
 });
 
 
-// send a message to the content script
+//envia mensagem para content.js
 var revelar = function() {
     chrome.tabs.getSelected(null, function(tab){
         chrome.tabs.sendMessage(tab.id, {type: "revelar-video"});	
