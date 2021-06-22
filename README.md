@@ -3,11 +3,11 @@
 
   É uma extensão para o navegador Google Chrome que permite acessar as configurações dos vídeos que são do Youtube na plataforma da DIO. Com isso, você poderá alterar a qualidade do vídeo, para a que melhor lhe atender.
 
-**OBS:** Esse plugin só funciona para liberar acesso aos links e configurações dos vídeos que são do Youtube e que algumas vezes abrem com baixa resolução, por causa da internet de baixa velocidade. Se o vídeo estiver hospedado pela própria plataforma da DIO não irá funcionar. Os vídeos que estão hospedados na DIO já tem a opção de alterar a qualidade.
+**OBS:** Esse plugin só funciona para liberar acesso aos links e configurações dos vídeos que são do Youtube. Se o vídeo estiver hospedado pela própria plataforma da DIO não irá funcionar. Os vídeos que estão hospedados na DIO já tem a opção de alterar a qualidade.
 
 ## Motivo
 
-​	Ao utilizar a plataforma da DIO, algumas vezes tive muita dificuldade em visualizar os códigos nas vídeos aulas, pois a minha internet não é muito boa. Devido a qualidade dos vídeos na plataforma estarem no modo automático, os vídeos abriam com baixa resolução, ou seja, embaçados. 
+​	Ao utilizar a plataforma da DIO, algumas vezes tive muita dificuldade em visualizar os códigos nas vídeos aulas, pois a minha internet não é muito boa e por isso os vídeos abriam com baixa resolução, ou seja, embaçados. 
 
 ​	Teve um dia que fui fazer um curso na DIO e estava impossível de visualizar os códigos na aula. Comecei a inspecionar os elementos da página para ter acesso ao link do vídeo, e assim abri-lo no Youtube sem a restrição de não poder alterar a qualidade do vídeo de acordo com minha necessidade. Consegui ter acesso ao link e ainda consegui alterar a qualidade do vídeo na plataforma. Foi aí que pensei que outras pessoas poderiam estar com o mesmo problema, então criei esse plugin para que  de forma simples e rápida, possamos alterar a qualidade do vídeo e ter acesso ao link sem precisar inspecionar elementos HTML no navegador.
 
@@ -24,6 +24,7 @@
 9. Clique em liberar e verá que o vídeo do curso está livre das restrições.
 10. Altere a qualidade do vídeo e depois atualize a página apertando F5 no teclado. É necessário recarregar a página para computar o seu progresso no curso.
 11. Se não funcionar, atualize a página para carregar o plugin e tente de novo.
+12. Se aparece a Mensagem "Vídeo do Youtube não encontrado nesta aula!", então o vídeo não é do Youtube.
 
 ## Por que não está na Chrome Web Store
 
