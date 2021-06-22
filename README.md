@@ -3,7 +3,7 @@
 
   É uma extensão para o navegador Google Chrome que permite acessar as configurações dos vídeos que são do Youtube na plataforma da DIO. Com isso, você poderá alterar a qualidade do vídeo, para a que melhor lhe atender.
 
-**OBS:** Esse plugin só funciona para liberar acesso aos links e configurações dos vídeos que são do Youtube e que algumas vezes abrem com baixa resolução, por causa da internet de baixa velocidade. Se o vídeo estiver hospedado pela própria plataforma da DIO não irá funcionar. 
+**OBS:** Esse plugin só funciona para liberar acesso aos links e configurações dos vídeos que são do Youtube e que algumas vezes abrem com baixa resolução, por causa da internet de baixa velocidade. Se o vídeo estiver hospedado pela própria plataforma da DIO não irá funcionar. Os vídeos que estão hospedados na DIO já tem a opção de alterar a qualidade.
 
 ## Motivo
 
