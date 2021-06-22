@@ -3,7 +3,13 @@ chrome.extension.onMessage.addListener(function(message, sender, sendResponse) {
     switch(message.type) {
         case "revelar-video":
             var divs = document.querySelectorAll("div");
-			var corpo_html = document.querySelector("html");			
+			var corpo_html = document.querySelector("html");
+
+			if(corpo_html.querySelectorAll("#learning-container").length<=0){
+				alert("Inicie uma aula na DIO!");
+				break;
+			}
+			
 			var learning_container = corpo_html.querySelector("#learning-container");
 			var container = learning_container.querySelector(".container");			
 			
