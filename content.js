@@ -5,19 +5,26 @@ chrome.extension.onMessage.addListener(function(message, sender, sendResponse) {
             var divs = document.querySelectorAll("div");
 			var corpo_html = document.querySelector("html");
 
-			if(corpo_html.querySelectorAll("#learning-container").length<=0){
+			if(corpo_html.querySelectorAll("#learning-container").length <= 0){
 				alert("Inicie uma aula na DIO!");
 				break;
 			}
 			
 			var learning_container = corpo_html.querySelector("#learning-container");
-			var container = learning_container.querySelector(".container");			
+			var container = learning_container.querySelector(".container");	
+
+			if(container.querySelectorAll(".clickable").length > 0){
+				alert("Inicie o vídeo da aula e depois clique em liberar!");
+				break;
+			}			
 			
 			var tipo_video = container.querySelectorAll("iframe");
-			if(tipo_video.length<=0){
+			if(tipo_video.length <= 0){
 				alert("Vídeo do Youtube não encontrado nesta aula!");
 				break;
 			}
+			
+			
 			
 			var media_control = learning_container.querySelector(".media-control");
 			if(media_control.innerHTML != ""){
