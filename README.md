@@ -17,7 +17,7 @@
 4. Clique em "Carregar sem compactação".
 5. Selecione a pasta onde estão os códigos do plugin e clique em "Selecionar pasta". 
 6. Abra ou atualize a plataforma da DIO e inicie uma aula em alguma curso.
-7. Pause  vídeo e clique no ícone extensões no canto superior direito.
+7. Pause  o vídeo e clique no ícone extensões no canto superior direito.
 8. Selecione o plugin Amora Dog e em seguida abrirá um popup com instruções e um botão.
 9. Clique em liberar e verá que o vídeo do curso está livre das restrições.
 10. Altere a qualidade do vídeo e depois atualize a página apertando F5 no teclado. É necessário recarregar a página para computar o seu progresso no curso.
