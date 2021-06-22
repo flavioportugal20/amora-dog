@@ -19,10 +19,10 @@
 6. Abra ou atualize a plataforma da DIO e inicie uma aula em alguma curso.
 7. Pause  o vídeo e clique no ícone extensões no canto superior direito.
 8. Selecione o plugin Amora Dog e em seguida abrirá um popup com instruções e um botão.
-9. Clique em liberar e verá que o vídeo do curso está livre das restrições.
+9. Clique em liberar e verá que o vídeo do curso estará livre das restrições.
 10. Altere a qualidade do vídeo e depois atualize a página apertando F5 no teclado. É necessário recarregar a página para computar o seu progresso no curso.
 11. Se não funcionar, atualize a página para carregar o plugin e tente de novo.
-12. Se aparece a Mensagem "Vídeo do Youtube não encontrado nesta aula!", então o vídeo não é do Youtube.
+12. Se aparece a Mensagem "Vídeo do Youtube não encontrado nesta aula!", então o vídeo provavelmente não é do Youtube.
 
 ## Por que não está na Chrome Web Store
 
